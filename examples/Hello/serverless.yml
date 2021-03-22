@@ -1,0 +1,26 @@
+component: scf
+name: VaporSCFDemo
+inputs:
+  name: hello-vapor-scf
+  src: .build/scf/Hello
+  runtime: CustomRuntime
+  region: ap-beijing
+  description: Vapor SCF demo
+  handler: swift.main
+  memorySize: 128
+  timeout: 10
+  initTimeout: 10
+  events:
+    - apigw:
+        name: hello-vapor-scf-apigw
+        parameters:
+          protocols:
+            - http
+            - https
+          serviceName: VaporSCFDemo
+          description: Vapor SCF demo with APIGateway
+          environment: release
+          endpoints:
+            - path: /*
+              function:
+                isIntegratedResponse: true
