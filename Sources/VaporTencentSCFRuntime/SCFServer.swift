@@ -127,9 +127,9 @@ public class SCFServer: Server {
     }
 
     public func shutdown() {
-        // this should only be executed after someone has called `app.shutdown()`
-        // on SCF the ones calling should always be us!
-        // If we have called shutdown, the SCF server already is shutdown.
+        // This should only be executed after someone has called `app.shutdown()`.
+        // On SCF, the ones calling should always be us!
+        // If we have called shutdown, the SCF server is already halted.
         // That means, we have nothing to do here.
     }
 }

@@ -12,7 +12,7 @@ let package = Package(
         .executable(name: "Hello", targets: ["Hello"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor.git", .upToNextMajor(from: "4.0.0")),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         .package(name: "vapor-tencent-scf-runtime", path: "../.."),
     ],
     targets: [

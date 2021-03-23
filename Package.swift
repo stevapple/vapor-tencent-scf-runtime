@@ -16,9 +16,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.13.0"),
-        .package(url: "https://github.com/stevapple/swift-tencent-scf-runtime.git", from: "0.2.0"),
+        .package(url: "https://github.com/stevapple/swift-tencent-scf-runtime.git", .upToNextMinor(from: "0.2.0")),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
-        .package(url: "https://github.com/swift-extras/swift-extras-base64", from: "0.4.0"),
+        .package(url: "https://github.com/swift-extras/swift-extras-base64.git", from: "0.4.0"),
     ],
     targets: [
         .target(

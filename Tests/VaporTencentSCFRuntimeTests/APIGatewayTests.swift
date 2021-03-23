@@ -19,6 +19,6 @@ final class APIGatewayTests: XCTestCase {
         XCTAssertEqual(response.body, body)
         XCTAssertEqual(response.headers.count, 2)
         XCTAssertEqual(response.headers["Content-Type"], "application/json")
-        XCTAssertEqual(response.headers["content-length"], String(body.count))
+        XCTAssertEqual(response.headers["content-length"], "\(body.count)")
     }
 }

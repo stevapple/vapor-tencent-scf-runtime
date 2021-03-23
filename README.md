@@ -17,7 +17,7 @@ and the [Vapor](https://github.com/vapor/vapor) framework. APIGateway requests a
 
 Examples:
 
-- [HelloWorld](examples/Hello/Sources/Hello/main.swift)
+- [Hello](examples/Hello/Sources/Hello/main.swift)
 
 If you test anything, please open a PR so that we can document the state of affairs better. A super small example would be even better. I plan to create some integration tests with the examples.
 
@@ -32,7 +32,7 @@ Add `vapor-tencent-scf-runtime` and `vapor` as dependencies to your project. For
   ]
 ```
 
-Add VaporTencentSCFRuntime as depency to your target:
+Add `VaporTencentSCFRuntime` as a dependency to your target:
 
 ```swift
   targets: [
@@ -69,7 +69,7 @@ app.post("hello") { req -> Hello in
 }
 ```
 
-Next we just need to run the Vapor app. To enable running in SCF, we need to change the "serve" command. Then we can start the app by calling `app.run()`
+Next we just need to run the Vapor app. To run in SCF, we need to change the "serve" command. Then we can start the app by calling `app.run()`
 
 ```swift
 app.servers.use(.scf)
