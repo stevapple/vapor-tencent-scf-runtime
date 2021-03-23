@@ -2,9 +2,9 @@
 
 
 [![Swift 5.2](https://img.shields.io/static/v1?label=Swift&message=%3e%3d+5.2&color=orange&logo=swift)](https://swift.org/download/)
-[![Vapor 4](https://img.shields.io/badge/Vapor-4-5AA9E7.svg)](https://github.com/vapor/vapor)
+[![Vapor 4](https://img.shields.io/static/v1?label=Vapor&message=4&color=5AA9E7&logo=vapor)](https://github.com/vapor/vapor)
 [![CI](https://img.shields.io/github/workflow/status/stevapple/vapor-tencent-scf-runtime/CI?label=CI&logo=github)](https://github.com/stevapple/vapor-tencent-scf-runtime/actions)
-[![codecov](https://img.shields.io/codecov/c/gh/stevapple/vapor-tencent-scf-runtime?label=Codecov)](https://codecov.io/gh/stevapple/vapor-tencent-scf-runtime)
+[![codecov](https://img.shields.io/codecov/c/gh/stevapple/vapor-tencent-scf-runtime?label=Codecov&logo=codecov)](https://codecov.io/gh/stevapple/vapor-tencent-scf-runtime)
 
 This library is a forked version of [vapor-aws-lambda-runtime](https://github.com/vapor-community/vapor-aws-lambda-runtime) for [Tencent SCF](https://intl.cloud.tencent.com/product/scf).
 
