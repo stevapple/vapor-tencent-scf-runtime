@@ -1,5 +1,6 @@
 # vapor-tencent-scf-runtime
 
+**This library is out-of-date. Use [Vapor](https://github.com/vapor/vapor) with SCF [Web Function](https://intl.cloud.tencent.com/document/product/583/40688) directly.**
 
 [![Swift 5.2](https://img.shields.io/static/v1?label=Swift&message=%3e%3d+5.2&color=orange&logo=swift)](https://swift.org/download/)
 [![Vapor 4](https://img.shields.io/static/v1?label=Vapor&message=4&color=5AA9E7&logo=vapor)](https://github.com/vapor/vapor)
